@@ -96,6 +96,9 @@
     background: rgb(175, 216, 236);
   }
   
+  .ham-heading{
+    display:none;  
+  }
   @media(max-width: 1300px){
   
     .nav-items{
@@ -115,6 +118,7 @@
     width: 13vw;
     margin-left: 4vw;
   }
+  
   
   .search-input {
     height: 3vw;
@@ -175,6 +179,7 @@
       font-size: 6vw;
       font-weight: 700;
       padding-left: 10vw;
+      display:block;
     }
   
     .ham-heading-active{
