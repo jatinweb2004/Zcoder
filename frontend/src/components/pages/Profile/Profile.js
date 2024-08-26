@@ -93,7 +93,7 @@ const Profile = () => {
                   key={problem.problemId}
                   className="problem-box"
                 >
-                  <div className="problem-box">
+                  <div className="problem-boxx">
                     <div className="problem-details">
                       <h3>{problem.problemId}</h3>
                       {problem.inputFields.map((field, index) => {

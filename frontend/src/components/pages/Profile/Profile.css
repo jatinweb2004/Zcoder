@@ -63,11 +63,15 @@ body{
     /* width: 62rem; */
   }
   
-  .problem-box {
+  .problem-boxx {
     display: flex;
     width: 30vw;
-  
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
     flex-direction: column;
+    height: 6rem;
+    padding: 0.5rem;
   }
   
   .show-button{
